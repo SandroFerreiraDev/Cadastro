@@ -58,7 +58,6 @@ class FormularioActivity : AppCompatActivity() {
 
 
         buttonSalvar.setOnClickListener {
-            // Obtenha os valores dos campos do formulário
             val nomeCompleto = editTextNomeCompleto.text.toString()
             val telefone = editTextTelefone.text.toString()
             val email = editTextEmail.text.toString()
