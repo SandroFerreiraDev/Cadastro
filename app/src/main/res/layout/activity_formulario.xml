@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNomeCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome Completo" />
+
+    <EditText
+        android:id="@+id/editTextTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSalvarEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar Email" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade" />
+
+    <Spinner
+        android:id="@+id/spinnerUF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ufs" />
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/buttonLimpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpar" />
+
+</LinearLayout>
